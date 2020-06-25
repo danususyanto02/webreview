@@ -127,7 +127,7 @@ body{
                 <h2>Check all user</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('user.create') }}">Buat halaman film review baru</a>
+                <a class="btn btn-success" href="{{ route('user.create') }}">Buat User baru</a>
             </div>
         </div>
     </div>

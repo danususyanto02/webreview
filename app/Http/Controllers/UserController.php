@@ -45,7 +45,7 @@ class UserController extends Controller
         User::create($request->all());
    
         return redirect()->route('user.index')
-                        ->with('success','Blog created successfully.');
+                        ->with('success','User created successfully.');
     }
 
     /**
